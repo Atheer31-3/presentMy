@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		463CC9DD2CA97D1F00904D9C /* khuloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CC9DC2CA97D1F00904D9C /* khuloud.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		35455C412CA978D000938B6B /* presentMy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = presentMy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		463CC9DC2CA97D1F00904D9C /* khuloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khuloud.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		35455C382CA978D000938B6B = {
 			isa = PBXGroup;
 			children = (
+				463CC9DC2CA97D1F00904D9C /* khuloud.swift */,
 				35455C432CA978D000938B6B /* presentMy */,
 				35455C422CA978D000938B6B /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463CC9DD2CA97D1F00904D9C /* khuloud.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
