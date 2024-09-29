@@ -9,10 +9,26 @@ import SwiftUI
 
 struct Atheer: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image("butterfly")
+                .resizable()
+                .scaledToFit()
+                .clipShape(Circle())
+            
+                .overlay(Circle().stroke( Color.blue, lineWidth: 4))
+            
+                    Text("Atheer Alshareef")
+                    .foregroundColor(.blue)
+                    .font(.largeTitle)
+                         
+                        
+            Text(" I’m Fresh graduate majoring in Computer Science at Al-Imam Muhammad Ibn Saud Islamic University, and I love programming iOS ،Very excited about programming")
+        }
+       
     }
 }
 
 #Preview {
     Atheer()
 }
+
